@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      div.yellow_box div{
+        background-color: yellow;
+      }
+      div#c_box span {
+        text-align: center;
+        padding: 10px;
+        color: green;
+      }
+      div span.blue_span {
+        background-color: #09c;
+      }
+      div span#c_span {
+        text-align: center;
+        padding: 10px;
+        color: orange;
+      }
+      .aa > .cc {
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="yellow_box">
+        yellow_box div 클래스 내의 span 입니다.
+        <div>asfdasfasdf
+          <div>888828282828</div>
+        </div>
+    </div>
+    <div id="c_box">
+      <span>
+        c_box div 아이디 내의 span 입니다.
+      </span>
+    </div>
+    <div>
+      <div>
+        <span class="blue_span">
+          div 내의 blue_span 클래스 span 입니다.
+        </span>
+        <span class="blue_span">
+          div 내의 blue_span 클래스 span 입니다.
+          <span>asdfasfdas</span>
+          <div>233333333</div>
+        </span>
+      </div>
+    </div>
+    <div>
+      <span id="c_span">
+        div 내의 c_span 아이디 span 입니다.
+      </span>
+    </div>
+    <div>
+      <span>
+        yellow_box div 클래스 내에 있지 않은 span 입니다.
+      </span>
+    </div>
+    <div>
+      <span>
+        c_box div 아이디 내에 있지 않은 span 입니다.
+      </span>
+    </div>
+    <div class="aa">
+        <div class="cc">
+          sec1
+        </div>
+      </div>
+      <div class="aa">
+        <div class="bb">
+          <div class="cc">
+            sec2
+          </div>
+        </div>
+      </div>
+  </body>
+</html>

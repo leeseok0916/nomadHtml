@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS States</title>
+    <style>
+    .box {
+        background-color: red;
+        font-size: 40px;
+    }
+    .box:hover {
+        background-color: blue;
+    }
+
+    .box:active {
+        background-color: gold;
+    }
+
+    input:focus {
+        /* background-color: hotpink; */
+        font-size: 40px;
+        border: 2px solid red;
+    }
+
+    a {
+        color: lime;
+    }
+
+    a:visited {
+        color: red;
+    }
+
+    </style>
+</head>
+<body>
+    <span class="box">asfdasdfasdfasfdas</span>
+    <input type="text">
+    <a href="http://www.google.com" target="_blank">google</a>
+</body>
+</html>
